@@ -1,0 +1,12 @@
+.vaccinefda {
+  width: 100%;
+  height: 100%;
+}
+
+.vaccinefda__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  margin-bottom: 20px;
+}

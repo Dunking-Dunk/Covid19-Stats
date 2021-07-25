@@ -1,0 +1,19 @@
+.vaccine__hero-container {
+  width: 100%;
+  height: 100%;
+  padding: 0px 30px;
+  margin-bottom: 30px;
+}
+
+.vaccine__hero__container-title {
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+  color: #00adb5;
+}
+
+.vaccine__hero__container-description {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: cursive;
+}

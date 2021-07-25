@@ -1,0 +1,50 @@
+.country__stats-state {
+  flex: 2;
+  width: 100%;
+  overflow-x: scroll;
+}
+.country__stats-state::-webkit-scrollbar {
+  display: none;
+}
+.country__stats-state table {
+  width: 100%;
+  height: 100%;
+  border-spacing: 20px 10px;
+  margin: 0px 20px;
+}
+
+.country__stats-state th {
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.country__stats-state tr {
+  height: 30px;
+  transition: 0.35s ease;
+}
+
+.country__stats-state tr:hover {
+  transform: scale(1.05);
+  background-color: #000;
+  color: #71c9ce;
+}
+
+.country__stats-state td {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.country__stats-state td:hover {
+  border: 1px solid #71c9ce;
+}
+
+@media screen and (max-width: 500px) {
+  .country__stats-state td {
+    padding: 5px;
+  }
+  .country__stats-state th {
+    font-size: 10px;
+  }
+}

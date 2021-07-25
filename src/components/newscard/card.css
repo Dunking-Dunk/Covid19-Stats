@@ -1,0 +1,38 @@
+.card {
+  width: 350px;
+  height: 350px;
+  margin: 30px;
+  transition: 0.35s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
+}
+.card:hover {
+  transform: scale(1.08);
+}
+.card__container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.card__container h1 {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.card__container h3 {
+  font-size: 15px;
+  font-family: cursive;
+  color: #fff;
+  margin: 20px 10px;
+}
+
+.card__container p {
+  color: #f1f1f1;
+  font-size: 15px;
+  justify-content: flex-end;
+}
